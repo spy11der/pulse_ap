@@ -1,0 +1,38 @@
+.navbar .container-01 {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 100px;
+    background-color: #0f172a;
+}
+
+.logo {
+    align-self: center;
+    font-weight: bolder;
+    font-size: 48px;
+    color: #22d3ee;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    color: #22d3ee;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li {
+    align-self: center;
+}
+
