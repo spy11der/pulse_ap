@@ -1,10 +1,14 @@
+* {
+    font-family: roboto;
+}
+
 .navbar .container-01 {
     border: 2px solid green;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0 100px;
+    padding: 0 150px;
     background-color: #0f172a;
 }
 
@@ -36,3 +40,40 @@ ul li {
     align-self: center;
 }
 
+.info {
+    border: 2px solid orangered;
+    background-color: #0f172a;
+}
+
+.container-02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 150px;
+}
+
+section.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #22d3ee;
+    line-height: 0;
+    font-size: 48px;
+}
+
+.text p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    max-width: 80px;
+    border-radius: 16px;
+    border: #3882f6;
+    font-weight: bold;
+    color: white;
+}
