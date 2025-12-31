@@ -77,3 +77,58 @@ button {
     font-weight: bold;
     color: white;
 }
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    height: 400px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+div.container-03 {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-top: 16px;
+}
+
+.quote {
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    height: 200px;
+}
+
+.box-left {
+    box-shadow: 5px 5px 5px #22d3ee;
+    border-radius: 20px;
+
+}
