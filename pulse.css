@@ -40,19 +40,13 @@ ul li {
     align-self: center;
 }
 
-.info {
+.info .container-02 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     border: 2px solid orangered;
     background-color: #0f172a;
     height: 450px;
-}
-
-.container-02 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 36px 150px;
 }
 
 section.text {
@@ -126,12 +120,18 @@ div.container-03 {
     border: 2px solid yellow;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 48px;
     height: 425px;
 }
 
-.box-left {
+
+.box-left,
+.box-right {
+    text-align: center;
     box-shadow: 5px 5px 5px #22d3ee;
     border-radius: 20px;
-
+    height: 200px;
+    font-size: 24px;
+    text-wrap: wrap;
 }
