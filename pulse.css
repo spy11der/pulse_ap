@@ -1,26 +1,36 @@
 * {
-    font-family: roboto, sans-serif;
-    margin: 0;
+    box-sizing: border-box;
 }
 
-.navbar .container-01 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16 0px;
-    background-color: #0f172a;
+body {
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.navbar {
+  background-color: #0f172a;
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
 }
 
 .logo {
-    align-self: center;
-    font-weight: bolder;
+    font-weight: 800;
     font-size: 24px;
     color: #22d3ee;
 }
 
-a {
-    align-self: center;
+.nav a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -33,9 +43,7 @@ a {
 .nav {
     list-style-type: none;
     display: flex;
-    align-items: center;
     gap: 24px;
-    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -44,31 +52,29 @@ ul li {
     align-self: center;
 }
 
-.info .container-02 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0f172a;
-    height: 450px;
-    padding: 80px 0;
+.hero {
+  background-color: #0f172a;
 }
 
-section.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
 }
 
 h1 {
     color: #22d3ee;
-    line-height: 0;
     font-size: 48px;
 }
 
-.text p {
-    color: #e5e7eb;
-    font-size: 18px;
+.text h1 {
+    line-height: 1.1;
+    margin-bottom: 16px;
+}
+
+.hero-text p {
+    color: white;
 }
 
 button {
@@ -176,14 +182,31 @@ button.pulse {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     text-align: center;
     background-color: #1f2937;
-    padding-top: 50px;
     color: white;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900px;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.text p {
+    line-height: 1.4;
+    margin-bottom: 16px;
 }
